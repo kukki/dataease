@@ -33,6 +33,6 @@ jobs:
           platforms: linux/amd64
           push: true
           build-args: |
-            IMAGE_TAG=linux
+            IMAGE_TAG=1.18.5
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.DOCKERHUB_REPOSITORY }}:latest
